@@ -1,6 +1,6 @@
 # ✋ Sign Language Recognition System
 
-A computer vision–based project for **real-time hand gesture recognition** using a **Convolutional Neural Network (CNN)**.
+A computer vision-based project for **real-time hand gesture recognition** using a **Convolutional Neural Network (CNN)**.
 It detects hand gestures through a webcam and converts them into **text or speech**, enabling basic sign language interpretation.
 
 ---
@@ -58,7 +58,7 @@ tensorflow
 
 ## ⚙️ Setup and Usage
 
-### Step 1️⃣ — Create Hand Histogram
+### Step 1️⃣ - Create Hand Histogram
 
 Run:
 
@@ -73,7 +73,7 @@ python set_hand_histogram.py
 
 ---
 
-### Step 2️⃣ — Create Gesture Dataset
+### Step 2️⃣ - Create Gesture Dataset
 
 Run:
 
@@ -88,7 +88,7 @@ python create_gestures.py
 
 ---
 
-### Step 3️⃣ — Augment Dataset
+### Step 3️⃣ - Augment Dataset
 
 To increase dataset size (flip images horizontally):
 
@@ -98,7 +98,7 @@ python Rotate_images.py
 
 ---
 
-### Step 4️⃣ — Prepare Data for Training
+### Step 4️⃣ - Prepare Data for Training
 
 Run:
 
@@ -114,7 +114,7 @@ This script:
 
 ---
 
-### Step 5️⃣ — Train CNN Model
+### Step 5️⃣ - Train CNN Model
 
 Run:
 
@@ -127,7 +127,7 @@ python cnn_model_train.py
 
 ---
 
-### Step 6️⃣ — Display Collected Gestures (optional)
+### Step 6️⃣ - Display Collected Gestures (optional)
 
 Run:
 
@@ -139,7 +139,7 @@ Displays all gesture classes in a grid (`full_img.jpg` is saved).
 
 ---
 
-### Step 7️⃣ — Run Final Recognition System
+### Step 7️⃣ - Run Final Recognition System
 
 Run:
 
@@ -223,4 +223,4 @@ Project developed for **Sign Language Recognition using CNN**
 
 ## 📜 License
 
-This project is released under the **MIT License** — free to use, modify, and distribute.
+This project is released under the **MIT License** - free to use, modify, and distribute.
