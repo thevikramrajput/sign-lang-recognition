@@ -1,0 +1,41 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TensorFlow / Keras model files
+*.h5
+*.hdf5
+
+# Pickled datasets
+train_images
+train_labels
+val_images
+val_labels
+test_images
+test_labels
+
+# Gesture dataset and histogram (too large for Git)
+gestures/
+hist
+
+# SQLite database (can be regenerated)
+gesture_db.db
+
+# Generated output images
+full_img.jpg
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
